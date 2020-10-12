@@ -1,71 +1,107 @@
 body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Open Sans', sans-serif;
-  color: #ffffff;
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
 }
 
 .header {
-  overflow: hidden;
-  padding: 10;
-  background-color: #f1f1f1;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+	overflow: hidden;
+	padding: 10;
+	background-color: #f1f1f1;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 .header_content {
-  margin: 25px;
-  margin-bottom: 30px;
+	margin: 25px;
+	margin-bottom: 30px;
 }
 
 .header-content a {
-  font-weight: bold;
-  text-decoration: none;
-  transition: 0.4s;
-  border-radius: 4px;
-  font-size: 22px; 
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 100%;
-  padding-bottom: 100%;
-  background-color: #f1f1f1;
-  color: black;
-  text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	transition: 0.4s;
+	border-radius: 4px;
+	font-size: 22px; 
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 100%;
+	padding-bottom: 100%;
+	background-color: #f1f1f1;
+	color: black;
+	text-align: center;
 }
 
 .header-content a:hover {
-  background-color: #bdbdbd;
+	background-color: #bdbdbd;
 }
 
 .header-right {
-  float: right;
+	float: right;
 }
 
 .header-content img {
-  height: 70px;
+	height: 70px;
 }
 
 .content-avatar {
-  padding: 10%;
-  border-radius: 250px; /* Радиус скругления */
-  width: 300px;
-  height: 300px;
+	padding: 10%;
+	border-radius: 250px;
+	width: 300px;
+	height: 300px;
+}
+
+.project-codee-gif {
+	padding: -20%;
+	padding-bottom: 200px;
+	display: block;
+	padding-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .content-label {
-  margin-top: 5%;
-  margin-right: 24%;
-  margin-left: 20%;
-  color: black;
+	margin-top: 5%;
+	margin-right: 24%;
+	margin-left: 20%;
+	color: black;
+}
+
+.projects-label {
+	color: black;
+	font-size: 64px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.project-codee {
+	color: black;
+	font-size: 64px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.project-codee-desc {
+	color: #505050;
+	font-size: 38px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.project-codee-item {
+	color: black;
+	font-size: 24px;
+	text-align: center;
 }
 
 @media screen and (min-width: 700px) {
-  .content {
-    display: flex;
-  }
+	.content {
+	display: flex;
+	}
 
-  .content-label {
-    margin-top: 17%;
-    margin-left: 0%;
-  }
+	.content-label {
+	margin-top: 17%;
+	margin-left: 0%;
+	}
 }
